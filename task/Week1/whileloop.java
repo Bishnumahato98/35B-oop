@@ -1,7 +1,7 @@
-import java.util.Scanner;
-public class whileloop {
-    public static void main(String[] args) {
-        Scanner scan=new Scanner(System.in);
+// import java.util.Scanner;
+// public class whileloop {
+//     public static void main(String[] args) {
+//         Scanner scan=new Scanner(System.in);
         // int count=0;
         // while(count<3){
         //     System.out.println("while count"+count);
@@ -29,6 +29,6 @@ public class whileloop {
 
 
         
-    }
+//     }
 
-}
+// }

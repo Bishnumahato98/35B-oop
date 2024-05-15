@@ -1,7 +1,7 @@
-import java.util.Scanner;
-public class forloop {
-    public static void main(String[] args) {
-        Scanner scanner= new Scanner(System.in);
+// import java.util.Scanner;
+// public class forloop {
+//     public static void main(String[] args) {
+//         Scanner scanner= new Scanner(System.in);
         // /* for loop takes instalization 
         //  * condition
         //  * modify/update*/
@@ -49,5 +49,5 @@ public class forloop {
 
         
 
-    }
-}
+//     }
+// }

@@ -1,7 +1,7 @@
-public class SwitchCase {
-    public static void main(String[] args) {
-        char charValue='d';
-        int intValue= 5;
+// public class SwitchCase {
+//     public static void main(String[] args) {
+//         char charValue='d';
+//         int intValue= 5;
         // switch (charValue){
         //     case 'a' :
         //     System.out.println("Apple");
@@ -43,6 +43,6 @@ public class SwitchCase {
         //     System.out.println("Invalid");
         // }
 
-    }
+//     }
     
-}
+// }

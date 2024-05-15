@@ -1,5 +1,5 @@
-public class task1 {
-    public static void main(String[] args) {
+// public class task1 {
+//     public static void main(String[] args) {
 
         //1. Write a program that prints Hello World! to the console. Save the program as Hello.java.
         //System.out.println("Hello world!");
@@ -56,5 +56,5 @@ public class task1 {
             a ' and a "?  Or between a " and a \"?
             One is what we see when we're typing our program. The other is what appears on the "console."*/
         /*System.out.println("A well-formed java program has a main method with { and } braces.\nA system.out.Println statement has ( and ) and usually a String\nthat starts and ends with a \" character.\n(But we type \" instead!)\nWhat is the difference between\na ' and a \"? or between a \" and a\nOne is what we see when we're typing our program. The other is what appers on the \"consolle.\" ");*/
-    }
-}
+//     }
+// }

@@ -1,7 +1,7 @@
-import java.util.Scanner;
-public class task3{
-    public static void main(String[] args) {
-        Scanner scanner=new Scanner(System.in);
+// import java.util.Scanner;
+// public class task3{
+//     public static void main(String[] args) {
+//         Scanner scanner=new Scanner(System.in);
         // 1. Write a JAVA program to find the maximum between three numbers.
         // int a=21;
         // int b=4;
@@ -207,5 +207,5 @@ public class task3{
 
 
 
-    }
-}
+//     }
+// }

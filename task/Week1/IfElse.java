@@ -1,8 +1,8 @@
-import java.util.Scanner;
-public class IfElse {
+// import java.util.Scanner;
+// public class IfElse {
 
-    public static void main(String[] args) {
-    Scanner scanner=new Scanner(System.in);
+//     public static void main(String[] args) {
+//     Scanner scanner=new Scanner(System.in);
         /*if statement */
         // if (true){
         //     System.out.println("True statement");
@@ -101,8 +101,8 @@ public class IfElse {
     
 
 
-    System.out.print("Enter the number: " );
-    int number = scanner.nextInt();
-    System.out.println("you entered: " + number);
-    }
-}
+//     System.out.print("Enter the number: " );
+//     int number = scanner.nextInt();
+//     System.out.println("you entered: " + number);
+//     }
+// }

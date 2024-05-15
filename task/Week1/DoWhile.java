@@ -1,7 +1,7 @@
-import java.util.Scanner;
-public class DoWhile{
-    public static void main(String[] args) {
-        Scanner scan=new Scanner(System.in);
+// import java.util.Scanner;
+// public class DoWhile{
+//     public static void main(String[] args) {
+//         Scanner scan=new Scanner(System.in);
         // /* check the same condition in while and do while for fifference */
 
         // int counter=0;
@@ -33,6 +33,6 @@ public class DoWhile{
         //     input = scan.nextInt();
         // }while(input>0);
         // System.out.println("Negative number" + input);
-    }
+//     }
     
-}
+// }

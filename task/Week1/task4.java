@@ -2,18 +2,18 @@ import java.util.Scanner;
 public class task4 {
     public static void main(String[] args) {
         Scanner scanner=new Scanner(System.in);
-        //1. Write a program that asks your name and prints “Hello your name” five times. Use a loop.
-        // System.out.print("Enter your Name: ");
-        // String name= scanner.nextLine();
-    
-        // for(int i=1; i<=5; i++){
-        //     System.out.println("Hello "+name);
-        // }
-        // scanner.close();
+            //1. Write a program that asks your name and prints “Hello your name” five times. Use a loop.
+            // System.out.print("Enter your Name: ");
+            // String name= scanner.nextLine();
+        
+            // for(int i=1; i<=5; i++){
+            //     System.out.println("Hello "+name);
+            // }
+            // scanner.close();
 
 
 
-        //2. Write a program that displays the following table (note that 1 mile is 1.609 kilometers):
+            //2. Write a program that displays the following table (note that 1 mile is 1.609 kilometers):
             // Miles    Kilometers
             // 1    1.609
             // 2    3.218
@@ -31,7 +31,7 @@ public class task4 {
             
 
 
-            //3. Write a program that generates the following table: 
+                //3. Write a program that generates the following table: 
                 // Number    Square
                 // 10    100
                 // 9    81
@@ -156,62 +156,62 @@ public class task4 {
 
 
 
-//7. Write a program to calculate the HCF of Two given numbers.
-// import java.util.Scanner;
-// public class task4 {
-//     public static void main(String[] args) {
-//         Scanner scanner = new Scanner(System.in);
-
-//         System.out.print("Enter the first number: ");
-//         int num1 = scanner.nextInt();
-
-//         System.out.print("Enter the second number: ");
-//         int num2 = scanner.nextInt();
-
-//         int hcf = calculateHCF(num1, num2);
-//         System.out.println("The HCF of " + num1 + " and " + num2 + " is: " + hcf);
-
-//         scanner.close();
-//     }
-
-//     public static int calculateHCF(int a, int b) {
-//         while (b != 0) {
-//             int temp = b;
-//             b = a % b;
-//             a = temp;
-//         }
-//         return a;
-//     }
-// }
-
-
+                //7. Write a program to calculate the HCF of Two given numbers.
+                // import java.util.Scanner;
+                // public class task4 {
+                //     public static void main(String[] args) {
+                //         Scanner scanner = new Scanner(System.in);
+                
+                //         System.out.print("Enter the first number: ");
+                //         int num1 = scanner.nextInt();
+                
+                //         System.out.print("Enter the second number: ");
+                //         int num2 = scanner.nextInt();
+                
+                //         int hcf = calculateHCF(num1, num2);
+                //         System.out.println("The HCF of " + num1 + " and " + num2 + " is: " + hcf);
+                
+                //         scanner.close();
+                //     }
+                
+                //     public static int calculateHCF(int a, int b) {
+                //         while (b != 0) {
+                //             int temp = b;
+                //             b = a % b;
+                //             a = temp;
+                //         }
+                //         return a;
+                //     }
+                // }
 
 
-//8. Write a program that prompts the user to input an integer and then outputs the number with the digits reversed. For example, if the input is 12345, the output should be 54321.
-// import java.util.Scanner;
 
-// public class task4 {
-//     public static void main(String[] args) {
-//         Scanner scanner = new Scanner(System.in);
 
-//         System.out.print("Enter an integer: ");
-//         int num = scanner.nextInt();
-//         int reversedNum = reverseInteger(num);
-//         System.out.println("Reversed number: " + reversedNum);
-
-//         scanner.close();
-//     }
-
-//     public static int reverseInteger(int n) {
-//         int reversedNum = 0;
-//         while (n != 0) {
-//             int digit = n % 10;
-//             reversedNum = reversedNum * 10 + digit;
-//             n /= 10;
-//         }
-//         return reversedNum;
-//     }
-// }
+                //8. Write a program that prompts the user to input an integer and then outputs the number with the digits reversed. For example, if the input is 12345, the output should be 54321.
+                // import java.util.Scanner;
+                
+                // public class task4 {
+                //     public static void main(String[] args) {
+                //         Scanner scanner = new Scanner(System.in);
+                
+                //         System.out.print("Enter an integer: ");
+                //         int num = scanner.nextInt();
+                //         int reversedNum = reverseInteger(num);
+                //         System.out.println("Reversed number: " + reversedNum);
+                
+                //         scanner.close();
+                //     }
+                
+                //     public static int reverseInteger(int n) {
+                //         int reversedNum = 0;
+                //         while (n != 0) {
+                //             int digit = n % 10;
+                //             reversedNum = reversedNum * 10 + digit;
+                //             n /= 10;
+                //         }
+                //         return reversedNum;
+                //     }
+                // }
 
 
                 //6. Write a program that reads the width and generates a corresponding triangle of *. For example, if width = 5, output is:
@@ -231,16 +231,6 @@ public class task4 {
                 // System.out.println();
                 // }
                 // scanner.close();;
-
-
-
-
-
-
-
-
-
-
 
     }
 }

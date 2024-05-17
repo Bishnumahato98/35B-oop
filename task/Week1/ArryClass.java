@@ -41,5 +41,9 @@ public class ArryClass {
         array[0]="cat";
         array[1]="snake";
         System.out.println(array[1]);
+
+
+
+        
     }
 }

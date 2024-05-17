@@ -222,15 +222,15 @@ public class task4 {
                 // *****
                 // Use a nested for loop to generate the above pattern.
 
-                System.out.println("Enter a number :");
-                int num=scanner.nextInt();
-                for(int i=1; i<=num; i++){
-                    for(int j=1; j<num; j++){
-                        System.out.println("*");
-                    }
-                System.out.println();
-                }
-                scanner.close();;
+                // System.out.println("Enter a number :");
+                // int num=scanner.nextInt();
+                // for(int i=1; i<=num; i++){
+                //     for(int j=1; j<num; j++){
+                //         System.out.println("*");
+                //     }
+                // System.out.println();
+                // }
+                // scanner.close();;
 
 
 

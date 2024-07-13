@@ -1,4 +1,6 @@
 // /------------Task1-------------
+
+// Create a Student class to simulate a student's profile. The class should have the following attributes: student ID, name, and GPA. Include methods to updateGPA() and printProfile(). Implement functionality to create new student profiles, update GPAs, and print student profiles
 // public class Exam {
 //     public static void main(String[] args) {
 //         Students p1=new Students(1, "Bishnu", 3.75);
@@ -36,6 +38,14 @@
 
 
 // ---------------Task2-----------
+
+// Create a BankAccount class to simulate a bank account. The class should have the following attributes: account number, account holder name, and balance. \Include methods to deposit(), withdraw(), and checkBalance().
+// Implement functionality to
+// Create new accounts
+// - Deposit money into the account
+// - Withdraw money
+// - Check the account balance.
+
 // public class Exam{
 //     public static void main(String[] args){
 //         BankAccount ba = new BankAccount(
@@ -295,31 +305,31 @@ a method named "count Vowels" that reads a string and returns the number of vowe
 // Design and implement a simple Java application that prompts the user to enter a valid email address. Your application should throw and handle a custom exception if the user enters an invalid email address InvalidEmail Exception A custom exception that is thrown when the user enters an email address that does not match a valid email pattern (e.g., it should contain '@' and characters)
 // import java.util.Scanner;
 
-// // Custom exception for invalid email addresses
+
 // class InvalidEmailException extends Exception {
 //     public InvalidEmailException(String message) {
 //         super(message);
 //     }
 // }
 
-// // Main application class
+
 // public class Exam {
 
-//     // Method to validate email address
+//    
 //     public static void validateEmail(String email) throws InvalidEmailException {
-//         // Check if the email contains '@' and '.'
+//      
 //         if (!email.contains("@") || !email.contains(".")) {
 //             throw new InvalidEmailException("Invalid email address: " + email);
 //         }
         
-//         // Check if '@' is before '.'
+//       
 //         int atIndex = email.indexOf('@');
 //         int dotIndex = email.lastIndexOf('.');
 //         if (atIndex > dotIndex) {
 //             throw new InvalidEmailException("Invalid email address: " + email);
 //         }
 
-//         // Ensure that there is at least one character before '@', between '@' and '.', and after '.'
+//       
 //         if (atIndex < 1 || dotIndex < atIndex + 2 || dotIndex + 2 >= email.length()) {
 //             throw new InvalidEmailException("Invalid email address: " + email);
 //         }
@@ -371,15 +381,15 @@ a method named "count Vowels" that reads a string and returns the number of vowe
 //         System.out.println("Enter a string between 5 and 20 characters: ");
 //         String input = scanner.nextLine();
 
-//         try {
-//             validateStringLength(input);
-//             System.out.println("The string length is valid.");
-//         } catch (InvalidStringLengthException e) {
+//        try {
+//            validateStringLength(input);
+//            System.out.println("The string length is valid.");
+//        } catch (InvalidStringLengthException e) {
 //             System.err.println(e.getMessage());
-//         } finally {
+//        } finally {
 //             scanner.close();
-//         }
-//     }
+//        }
+//    }
 // }
 
 
@@ -393,21 +403,21 @@ a method named "count Vowels" that reads a string and returns the number of vowe
 //     public static void main(String[] args) {
 //         TextEditor editor = new TextEditor();
         
-//         // Add text and print current text
+//        
 //         editor.addText("Hello");
-//         System.out.println("Current text: " + editor.getCurrentText());  // Output: Hello
+//         System.out.println("Current text: " + editor.getCurrentText());  
         
-//         // Add more text and print current text
+//       
 //         editor.addText(" World");
-//         System.out.println("Current text: " + editor.getCurrentText());  // Output: Hello World
+//         System.out.println("Current text: " + editor.getCurrentText());  
         
-//         // Undo the last change and print current text
+//       
 //         editor.undo();
-//         System.out.println("Current text: " + editor.getCurrentText());  // Output: Hello
+//         System.out.println("Current text: " + editor.getCurrentText());  
         
-//         // Undo again and print current text
+//        
 //         editor.undo();
-//         System.out.println("Current text: " + editor.getCurrentText());  // Output: (empty string)
+//         System.out.println("Current text: " + editor.getCurrentText());  
 //     }
 // }
 
@@ -422,14 +432,14 @@ a method named "count Vowels" that reads a string and returns the number of vowe
 
 //     // Add text to the editor and save the state in the stack
 //     public void addText(String text) {
-//         textStack.push(currentText);  // Save current state
-//         currentText += text;  // Update current text
+//         textStack.push(currentText);  
+//         currentText += text;  
 //     }
 
 //     // Undo the last change
 //     public void undo() {
 //         if (!textStack.isEmpty()) {
-//             currentText = textStack.pop();  // Revert to the previous state
+//             currentText = textStack.pop();  
 //         }
 //     }
 
@@ -597,7 +607,6 @@ Implement the Transaction interface in at least three separate classes, Deposit 
 //     }
 // }
 
-
 // class WithdrawalTransaction implements Transaction {
 //     private double amount;
 //     private double limit;
@@ -618,14 +627,12 @@ Implement the Transaction interface in at least three separate classes, Deposit 
 //     }
 // }
 
-
 // public class Exam{
 //     public static void main(String[] args) {
 //         List<Transaction> transactions = new ArrayList<>();
 
 //         double depositLimit = 10000.00;
 //         double withdrawalLimit = 5000.00;
-
 
 //         transactions.add(new DepositTransaction(5000.00, depositLimit));
 //         transactions.add(new DepositTransaction(15000.00, depositLimit));
@@ -641,3 +648,97 @@ Implement the Transaction interface in at least three separate classes, Deposit 
 //         }
 //     }
 // }
+
+
+
+
+
+
+
+
+// ----------------Task 11--------------
+// circle,perimeter and rectangle
+
+
+
+// abstract class Shape {
+    
+//     abstract double area();
+//     abstract double perimeter();
+// }
+// class Circle extends Shape {
+//     private double radius;
+//     Circle(double radius) {
+//         this.radius = radius;
+//     }
+
+//     @Override
+//     double area() {
+//         return Math.PI * radius * radius;
+//     }
+
+//     @Override
+//     double perimeter() {
+//         return 2 * Math.PI * radius;
+//     }
+// }
+
+// class Rectangle extends Shape {
+//     private double length, width;
+
+    
+//     Rectangle(double length, double width) {
+//         this.length = length;
+//         this.width = width;
+//     }
+
+//     @Override
+//     double area() {
+//         return length * width;
+//     }
+
+//     @Override
+//     double perimeter() {
+//         return 2 * (length + width);
+//     }
+// }
+
+// class Square extends Shape {
+//     private double side;
+
+    
+//     Square(double side) {
+//         this.side = side;
+//     }
+
+//     @Override
+//     double area() {
+//         return side * side;
+//     }
+
+//     @Override
+//     double perimeter() {
+//         return 4 * side;
+//     }
+// }
+
+// public class Exam{
+//     public static void main(String[] args) {
+//         Shape circle = new Circle(5);
+//         Shape rectangle = new Rectangle(4, 6);
+//         Shape square = new Square(3);
+
+        
+//         System.out.println("Circle Area: " + circle.area());
+//         System.out.println("Circle Perimeter: " + circle.perimeter());
+
+//         System.out.println("Rectangle Area: " + rectangle.area());
+//         System.out.println("Rectangle Perimeter: " + rectangle.perimeter());
+
+//         System.out.println("Square Area: " + square.area());
+//         System.out.println("Square Perimeter: " + square.perimeter());
+//     }
+// }
+
+
+
